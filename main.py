@@ -2,6 +2,8 @@ from Functions_Aux.feriado import *
 from Functions_Aux.mail_sending import *
 from Functions_Aux.maps import *
 
+aux_anbima = 0
+conn = mysql.connector.connect(user = 'fidc_consulta', password = 'FSenFDS65#', host = '172.16.0.36', database = 'oliveir_scot', auth_plugin = 'mysql_native_password')
 
 #Inicio do código para checagem automática
 
